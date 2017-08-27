@@ -14,6 +14,12 @@ This script utilizes AutoHotKey (hence only working on Windows) to send command 
     - Press ```Enter```
     - Right click and select ```Paste shortcut```
 
+## Setup on Sublime
+* Add the following key binding
+	- Open ```Preferences>Key Bindings```
+	- Add the following command to ```Default(Windows).sublime-keymap -- User```: ```{ "keys": ["ctrl+shift+alt+f"], "command": "copy_path" }```
+![sublime copy_path](./pictures/sublime_copypath.png)
+
 ## Setup on SAS
 * If you open SAS and see the message below, please select "Don't show this dialog box again"
 ![SAS start dialog box](pictures/sas_start.png)
